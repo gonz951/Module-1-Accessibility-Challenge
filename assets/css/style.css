@@ -15,11 +15,13 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changed to a header element to make things more concise. Still works the same as before, just more semantic friendly */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* Moved a lot of the elements into here to keep it more clean */
     h1{
         display: inline-block;
         font-size: 48px;
@@ -46,6 +48,7 @@ header {
     }
 }
 
+/* Unchanged */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +58,7 @@ header {
     background-position: center;
 }
 
+/* Kept these for convenience. They don't seem to be bothering anything */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -65,6 +69,7 @@ header {
     margin-left: 25px;
 }
 
+/* Changed to main to make it more concise. Reduced the amount of classes used to reduce clutter */
 main {
     width: 75%;
     display: inline-block;
@@ -77,6 +82,7 @@ main {
         background-color: #0072bb;
         color: #ffffff;
     }
+    /* Moved a lot of these inside so they wouldn't bother others of the same elements outside of the box */
     img {
         max-height: 200px;
     }
@@ -86,6 +92,7 @@ main {
     }
 }
 
+/* Kept this to keep everything in place */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,8 +105,10 @@ main {
     color:#ffffff;
 }
 
+/* Changed into articles so it could fit into the benefits section */
 article {
     margin-bottom: 32px;
+    /* Moved these into here to reduce clutter and not effect other images on the page */
     img {
         display:block;
         margin: 10px auto;
@@ -109,8 +118,9 @@ article {
         margin-bottom: 10px;
         text-align: center;
     }
-}
+} 
 
+/* Changed this to a footer to make things more concise. Also put everything into here to reduce clutter and not effect other h2s */
 footer {
     padding: 30px;
     clear: both;
