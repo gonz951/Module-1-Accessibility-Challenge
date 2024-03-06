@@ -14,7 +14,12 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+The website itself explains the many uses and benefits to having a website for your business. 
+As for functions within the website itself:
+The main page has links within the header that guide the reader to the sections they're seeking out.
+![Main](assets/images/Horiseon%20Main.png)
+And with a click, they will go to one of the three respective sections; labeled as such by the header.
+![Sections](assets/images/Horiseon%20Sections.png)
 
 ## Credits
 
